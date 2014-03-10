@@ -1,0 +1,1721 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yitao/ontologies/2014/2/untitled-ontology-16"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/yitao/ontologies/2014/2/untitled-ontology-16">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ALUMINUM/CALCIUM/MAGNESIUM_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ALUMINUM/MAGNESIUM/SODIUM_BICARBONATE_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ALUMINUM/MAGNESIUM_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ALUMINUM_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AMPHETAMINES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AMPHETAMINE_LIKE_STIMULANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANALGESICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANESTHETICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANESTHETICS,INHALATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANESTHETICS,MUCOSAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANESTHETIC_ADJUNCTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTACIDS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTI-INFLAMMATORIES,NASAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTICONVULSANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIDEPRESSANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIDEPRESSANTS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIDIARRHEAL_AGENTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIEMETICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,ALKYLAMINE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,BUTYROPHENONE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,ETHANOLAMINE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,ETHYLENEDIAMINE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,NASAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,PHENOTHIAZINE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,PIPERAZINE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIHISTAMINES,PIPERIDINE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIMIGRAINE_AGENTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIMUSCARINIC/ANTIPASMODIC_COMBINATIONS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIMUSCARINICS/ANTISPASMODICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIPARKINSON_AGENTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIPSYCHOTICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIPSYCHOTICS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIPYRETICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIULCER_AGENTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIULCER_AGENTS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANTIVERTIGO_AGENTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#APPETITE_SUPPRESSANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#APPETITE_SUPPRESSANTS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BARBITURIC_ACID_DERIVATIVE_ANESTHETICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BARBITURIC_ACID_DERIVATIVE_SEDATIVES/HYPNOTICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BENZODIAZEPINE_DERIVATIVE_SEDATIVES/HYPNOTICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BULK-FORMING_LAXATIVES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BULKING_AGENT,APPETITE_SUPPRESSANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CALCIUM/MAGNESIUM_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CALCIUM_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CARBON_DIOXIDE-RELEASING_LAXATIVES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CARGLUMIC_ACID_200MG_TAB,SOLUBLE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CENTRALLY-ACTING_APPETITE_SUPPRESSANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CNS_MEDICATIONS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CNS_STIMULANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CNS_STIMULANTS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CROFELEMER_125MG_TAB,EC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DECONGESTANTS,NASAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DEXTROMETHORPHAN_HBR_20MG/QUINIDINE_SO4_10MG_CAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DIGESTANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease,_Manifestations_and_Physiological_States"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drugs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMETICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EZOBABINE_400MG_TAB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EZOGABINE_200MG_TAB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EZOGABINE_300MG_TAB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EZOGABINE_400MG_TAB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EZOGABINE_50MG_TAB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GABAPENTIN_ENACARBIL_600MG_24HR_TAB,SA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GASTRIC_MEDICATIONS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GENERAL_ANESTHETICS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GLYCEROL_PHENYLBUTYRATE_1.1GM/ML_LIQUID,ORAL,25ML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Systemic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#H._PYLORI_AGENTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HISTAMINE_ANTAGONISTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HYPEROSMOTIC_LAXATIVES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LACTIC_ACID_BACTERIA_PWD,ORAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LAXATIVES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LAXATIVES,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LINACLOTIDE_145MCG_CAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LINACLOTIDE_290MCG_CAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LITHIUM_SALTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LOCAL_ANESTHETICS,INJECTION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LUBRICANT_LAXATIVES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAGALDRATE_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAGNESIUM/SODIUM_BICARBONATE_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAGNESIUM_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MONAMINE_OXIDASE_INHIBITOR_ANTIDEPRESSANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NASAL_AND_THROAT,TOPICAL,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NASAL_AND_THROAT_AGENTS,TOPICAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NON-OPIOID_ANALGESICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NON-STEROIDAL_ANTI-INFLAMMATORY_ANALGESICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nervous_System_Diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPIOID_ANALGESICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPIOID_ANTAGONIST_ANALGESICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organ_System_Specific"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHENOTHIAZINE/RELATED_ANTIPSYCHOTICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PROTECTANTS,ULCER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respiratory_Tract_Diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEDATIVES/HYPNOTICS,OTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SEDATIVES/HYPONTICS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SODIUM_BICARBONATE_CONTAINING_ANTACIDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STIMULANT_LAXATIVES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STOOL_SOFTENER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Side_Effects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TEDUGLUTIDE_5MG/VIAL_INJ,KIT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TRICYCLIC_ANTIDEPRESSANTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TUMOR_NECROSIS_FACTOR_BLOCKER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wounds_and_Injuries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#general_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nervous_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nutrition,_metabolism,_and_development_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#respiratory_system_and_chest_symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#skin_and_integumentary_tissue_symptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSideEffect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treatsDisease"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treatsSymptom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acetaminophen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aspirin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Azelastine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benzocaine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desloratadine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loratadine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phenothiazine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aches"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#akathisia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#akinesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#allergic_rhinitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#arthritis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bipolar_disorder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blood_cancer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blurred_vision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cold_sore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#conjunctivitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dermatitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drowsiness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dry_mouth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#epilepsy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fatigue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gastrointestinal_bleeding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hallucination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#headache"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#induced_asthma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inner_ear_pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#itchy_nose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#itchy_rashes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#liver_damage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methnoglobinemia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nasal_congestion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nasal_pruritus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nausea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neruoleptic_malignant_syndrome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oral_ulcers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paralysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#post-nasal_drip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#psychosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pulmonary_aspiration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#red_eyes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rheumatic_fever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rhinorrhea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#runny_nose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seizures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sneezing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sore_throat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stevens_johnson_syndrome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sunburn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#swelling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tendonitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tinnitus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tooth_pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#torn_ligament"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toxic_epidermal_neurolysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#urinary_retention"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vomiting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#weight_gain"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ALUMINUM/CALCIUM/MAGNESIUM_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALUMINUM/MAGNESIUM/SODIUM_BICARBONATE_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALUMINUM/MAGNESIUM_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALUMINUM_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AMPHETAMINES"/>
+        <Class IRI="#CNS_STIMULANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AMPHETAMINE_LIKE_STIMULANTS"/>
+        <Class IRI="#CNS_STIMULANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANALGESICS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANESTHETICS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANESTHETICS,INHALATION"/>
+        <Class IRI="#ANESTHETICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANESTHETICS,MUCOSAL"/>
+        <Class IRI="#NASAL_AND_THROAT_AGENTS,TOPICAL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANESTHETIC_ADJUNCTS"/>
+        <Class IRI="#ANESTHETICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTACIDS"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTACIDS,OTHER"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTI-INFLAMMATORIES,NASAL"/>
+        <Class IRI="#NASAL_AND_THROAT_AGENTS,TOPICAL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTICONVULSANTS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIDEPRESSANTS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIDEPRESSANTS,OTHER"/>
+        <Class IRI="#ANTIDEPRESSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIDIARRHEAL_AGENTS"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIEMETICS"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES"/>
+        <Class IRI="#Drugs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,ALKYLAMINE"/>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,BUTYROPHENONE"/>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,ETHANOLAMINE"/>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,ETHYLENEDIAMINE"/>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,NASAL"/>
+        <Class IRI="#NASAL_AND_THROAT_AGENTS,TOPICAL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,OTHER"/>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,PHENOTHIAZINE"/>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,PIPERAZINE"/>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIHISTAMINES,PIPERIDINE"/>
+        <Class IRI="#ANTIHISTAMINES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIMIGRAINE_AGENTS"/>
+        <Class IRI="#ANALGESICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIMUSCARINIC/ANTIPASMODIC_COMBINATIONS"/>
+        <Class IRI="#ANTIMUSCARINICS/ANTISPASMODICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIMUSCARINICS/ANTISPASMODICS"/>
+        <Class IRI="#ANTIMUSCARINICS/ANTISPASMODICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIMUSCARINICS/ANTISPASMODICS"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIPARKINSON_AGENTS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIPSYCHOTICS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIPSYCHOTICS,OTHER"/>
+        <Class IRI="#ANTIPSYCHOTICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIPYRETICS"/>
+        <Class IRI="#CNS_STIMULANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIULCER_AGENTS"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIULCER_AGENTS,OTHER"/>
+        <Class IRI="#ANTIULCER_AGENTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANTIVERTIGO_AGENTS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APPETITE_SUPPRESSANTS"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APPETITE_SUPPRESSANTS,OTHER"/>
+        <Class IRI="#APPETITE_SUPPRESSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allergies"/>
+        <Class IRI="#Disease,_Manifestations_and_Physiological_States"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BARBITURIC_ACID_DERIVATIVE_ANESTHETICS"/>
+        <Class IRI="#ANESTHETICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BARBITURIC_ACID_DERIVATIVE_SEDATIVES/HYPNOTICS"/>
+        <Class IRI="#SEDATIVES/HYPONTICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BENZODIAZEPINE_DERIVATIVE_SEDATIVES/HYPNOTICS"/>
+        <Class IRI="#SEDATIVES/HYPONTICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BULK-FORMING_LAXATIVES"/>
+        <Class IRI="#LAXATIVES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BULKING_AGENT,APPETITE_SUPPRESSANTS"/>
+        <Class IRI="#APPETITE_SUPPRESSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CALCIUM/MAGNESIUM_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CALCIUM_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CARBON_DIOXIDE-RELEASING_LAXATIVES"/>
+        <Class IRI="#LAXATIVES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CARGLUMIC_ACID_200MG_TAB,SOLUBLE"/>
+        <Class IRI="#GASTRIC_MEDICATIONS,OTHER"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CENTRALLY-ACTING_APPETITE_SUPPRESSANTS"/>
+        <Class IRI="#APPETITE_SUPPRESSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+        <Class IRI="#Drugs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CNS_MEDICATIONS,OTHER"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CNS_STIMULANTS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CNS_STIMULANTS,OTHER"/>
+        <Class IRI="#CNS_STIMULANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CROFELEMER_125MG_TAB,EC"/>
+        <Class IRI="#ANTIDIARRHEAL_AGENTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DECONGESTANTS,NASAL"/>
+        <Class IRI="#NASAL_AND_THROAT_AGENTS,TOPICAL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DEXTROMETHORPHAN_HBR_20MG/QUINIDINE_SO4_10MG_CAP"/>
+        <Class IRI="#CNS_MEDICATIONS,OTHER"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DIGESTANTS"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMETICS"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EZOBABINE_400MG_TAB"/>
+        <Class IRI="#ANTICONVULSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EZOGABINE_200MG_TAB"/>
+        <Class IRI="#ANTICONVULSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EZOGABINE_300MG_TAB"/>
+        <Class IRI="#ANTICONVULSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EZOGABINE_400MG_TAB"/>
+        <Class IRI="#ANTICONVULSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EZOGABINE_50MG_TAB"/>
+        <Class IRI="#ANTICONVULSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GABAPENTIN_ENACARBIL_600MG_24HR_TAB,SA"/>
+        <Class IRI="#CNS_MEDICATIONS,OTHER"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GASTRIC_MEDICATIONS,OTHER"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+        <Class IRI="#Drugs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GENERAL_ANESTHETICS,OTHER"/>
+        <Class IRI="#ANESTHETICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GLYCEROL_PHENYLBUTYRATE_1.1GM/ML_LIQUID,ORAL,25ML"/>
+        <Class IRI="#GASTRIC_MEDICATIONS,OTHER"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Systemic"/>
+        <Class IRI="#Side_Effects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#H._PYLORI_AGENTS"/>
+        <Class IRI="#ANTIULCER_AGENTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HISTAMINE_ANTAGONISTS"/>
+        <Class IRI="#ANTIULCER_AGENTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HYPEROSMOTIC_LAXATIVES"/>
+        <Class IRI="#LAXATIVES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LACTIC_ACID_BACTERIA_PWD,ORAL"/>
+        <Class IRI="#ANTIDIARRHEAL_AGENTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LAXATIVES"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LAXATIVES,OTHER"/>
+        <Class IRI="#LAXATIVES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LINACLOTIDE_145MCG_CAP"/>
+        <Class IRI="#GASTRIC_MEDICATIONS,OTHER"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LINACLOTIDE_290MCG_CAP"/>
+        <Class IRI="#GASTRIC_MEDICATIONS,OTHER"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LITHIUM_SALTS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LOCAL_ANESTHETICS,INJECTION"/>
+        <Class IRI="#ANESTHETICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LUBRICANT_LAXATIVES"/>
+        <Class IRI="#LAXATIVES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAGALDRATE_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAGNESIUM/SODIUM_BICARBONATE_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAGNESIUM_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MONAMINE_OXIDASE_INHIBITOR_ANTIDEPRESSANTS"/>
+        <Class IRI="#ANTIDEPRESSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NASAL_AND_THROAT,TOPICAL,OTHER"/>
+        <Class IRI="#NASAL_AND_THROAT_AGENTS,TOPICAL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NASAL_AND_THROAT_AGENTS,TOPICAL"/>
+        <Class IRI="#Drugs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NON-OPIOID_ANALGESICS"/>
+        <Class IRI="#ANALGESICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NON-STEROIDAL_ANTI-INFLAMMATORY_ANALGESICS"/>
+        <Class IRI="#ANALGESICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nervous_System_Diseases"/>
+        <Class IRI="#Disease,_Manifestations_and_Physiological_States"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPIOID_ANALGESICS"/>
+        <Class IRI="#ANALGESICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPIOID_ANTAGONIST_ANALGESICS"/>
+        <Class IRI="#ANALGESICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organ_System_Specific"/>
+        <Class IRI="#Side_Effects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <Class IRI="#Side_Effects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHENOTHIAZINE/RELATED_ANTIPSYCHOTICS"/>
+        <Class IRI="#ANTIPSYCHOTICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROTECTANTS,ULCER"/>
+        <Class IRI="#ANTIULCER_AGENTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Respiratory_Tract_Diseases"/>
+        <Class IRI="#Disease,_Manifestations_and_Physiological_States"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEDATIVES/HYPNOTICS,OTHER"/>
+        <Class IRI="#SEDATIVES/HYPONTICS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SEDATIVES/HYPONTICS"/>
+        <Class IRI="#CENTRAL_NERVOUS_SYSTEM_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SODIUM_BICARBONATE_CONTAINING_ANTACIDS"/>
+        <Class IRI="#ANTACIDS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STIMULANT_LAXATIVES"/>
+        <Class IRI="#LAXATIVES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STOOL_SOFTENER"/>
+        <Class IRI="#LAXATIVES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TEDUGLUTIDE_5MG/VIAL_INJ,KIT"/>
+        <Class IRI="#GASTRIC_MEDICATIONS,OTHER"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TRICYCLIC_ANTIDEPRESSANTS"/>
+        <Class IRI="#ANTIDEPRESSANTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TUMOR_NECROSIS_FACTOR_BLOCKER"/>
+        <Class IRI="#GASTROINTESTINAL_MEDICATIONS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wounds_and_Injuries"/>
+        <Class IRI="#Disease,_Manifestations_and_Physiological_States"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#general_symptom"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nervous_system"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nutrition,_metabolism,_and_development_symptom"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#respiratory_system_and_chest_symptom"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skin_and_integumentary_tissue_symptom"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#NON-OPIOID_ANALGESICS"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NON-STEROIDAL_ANTI-INFLAMMATORY_ANALGESICS"/>
+        <NamedIndividual IRI="#Aspirin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ANTIHISTAMINES,NASAL"/>
+        <NamedIndividual IRI="#Azelastine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ANESTHETIC_ADJUNCTS"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ANTIHISTAMINES,OTHER"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ANTIHISTAMINES,PIPERIDINE"/>
+        <NamedIndividual IRI="#Loratadine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ANTIHISTAMINES,PHENOTHIAZINE"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Systemic"/>
+        <NamedIndividual IRI="#aches"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#akathisia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#akinesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergies"/>
+        <NamedIndividual IRI="#allergic_rhinitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wounds_and_Injuries"/>
+        <NamedIndividual IRI="#arthritis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nervous_System_Diseases"/>
+        <NamedIndividual IRI="#bipolar_disorder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#blood_cancer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#blurred_vision"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Respiratory_Tract_Diseases"/>
+        <NamedIndividual IRI="#cold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#skin_and_integumentary_tissue_symptom"/>
+        <NamedIndividual IRI="#cold_sore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergies"/>
+        <NamedIndividual IRI="#conjunctivitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#general_symptom"/>
+        <NamedIndividual IRI="#cough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergies"/>
+        <NamedIndividual IRI="#dermatitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Systemic"/>
+        <NamedIndividual IRI="#drowsiness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#dry_mouth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nervous_System_Diseases"/>
+        <NamedIndividual IRI="#epilepsy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Systemic"/>
+        <NamedIndividual IRI="#fatigue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#general_symptom"/>
+        <NamedIndividual IRI="#fatigue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#general_symptom"/>
+        <NamedIndividual IRI="#fever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Respiratory_Tract_Diseases"/>
+        <NamedIndividual IRI="#flu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#gastrointestinal_bleeding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nervous_system"/>
+        <NamedIndividual IRI="#hallucination"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Systemic"/>
+        <NamedIndividual IRI="#headache"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nervous_system"/>
+        <NamedIndividual IRI="#headache"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#induced_asthma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wounds_and_Injuries"/>
+        <NamedIndividual IRI="#inner_ear_pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#itchy_nose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#skin_and_integumentary_tissue_symptom"/>
+        <NamedIndividual IRI="#itchy_rashes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#liver_damage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#methnoglobinemia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#respiratory_system_and_chest_symptom"/>
+        <NamedIndividual IRI="#nasal_congestion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Respiratory_Tract_Diseases"/>
+        <NamedIndividual IRI="#nasal_pruritus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#general_symptom"/>
+        <NamedIndividual IRI="#nausea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other"/>
+        <NamedIndividual IRI="#neruoleptic_malignant_syndrome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wounds_and_Injuries"/>
+        <NamedIndividual IRI="#oral_ulcers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#general_symptom"/>
+        <NamedIndividual IRI="#pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#paralysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#respiratory_system_and_chest_symptom"/>
+        <NamedIndividual IRI="#post-nasal_drip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nervous_System_Diseases"/>
+        <NamedIndividual IRI="#psychosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#pulmonary_aspiration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#general_symptom"/>
+        <NamedIndividual IRI="#red_eyes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Respiratory_Tract_Diseases"/>
+        <NamedIndividual IRI="#rheumatic_fever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Allergies"/>
+        <NamedIndividual IRI="#rhinorrhea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#runny_nose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#respiratory_system_and_chest_symptom"/>
+        <NamedIndividual IRI="#runny_nose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nervous_system"/>
+        <NamedIndividual IRI="#seizures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#sneezing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#respiratory_system_and_chest_symptom"/>
+        <NamedIndividual IRI="#sneezing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#respiratory_system_and_chest_symptom"/>
+        <NamedIndividual IRI="#sore_throat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other"/>
+        <NamedIndividual IRI="#stevens_johnson_syndrome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#skin_and_integumentary_tissue_symptom"/>
+        <NamedIndividual IRI="#sunburn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Systemic"/>
+        <NamedIndividual IRI="#swelling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#general_symptom"/>
+        <NamedIndividual IRI="#swelling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wounds_and_Injuries"/>
+        <NamedIndividual IRI="#tendonitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#tinnitus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wounds_and_Injuries"/>
+        <NamedIndividual IRI="#tooth_pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wounds_and_Injuries"/>
+        <NamedIndividual IRI="#torn_ligament"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other"/>
+        <NamedIndividual IRI="#toxic_epidermal_neurolysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organ_System_Specific"/>
+        <NamedIndividual IRI="#urinary_retention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#general_symptom"/>
+        <NamedIndividual IRI="#vomiting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#General_Systemic"/>
+        <NamedIndividual IRI="#weight_gain"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#toxic_epidermal_neurolysis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#blood_cancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#liver_damage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#stevens_johnson_syndrome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#torn_ligament"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#arthritis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#flu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#tendonitis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#cold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#headache"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Acetaminophen"/>
+        <NamedIndividual IRI="#fever"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#tinnitus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#swelling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#induced_asthma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#gastrointestinal_bleeding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#inner_ear_pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#cold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#oral_ulcers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#tooth_pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#tendonitis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#torn_ligament"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#arthritis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#fever"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#headache"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Aspirin"/>
+        <NamedIndividual IRI="#swelling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#weight_gain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#sneezing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#post-nasal_drip"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#aches"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#red_eyes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#runny_nose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#allergic_rhinitis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#cold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#nasal_pruritus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#rhinorrhea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Azelastine"/>
+        <NamedIndividual IRI="#conjunctivitis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#pulmonary_aspiration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#methnoglobinemia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#oral_ulcers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#dermatitis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#cold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#tooth_pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#inner_ear_pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#rheumatic_fever"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#itchy_rashes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#cold_sore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#sore_throat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#sunburn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Benzocaine"/>
+        <NamedIndividual IRI="#cough"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#dry_mouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#fatigue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#itchy_rashes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#sneezing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#headache"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#runny_nose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#allergic_rhinitis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#cough"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Desloratadine"/>
+        <NamedIndividual IRI="#nasal_congestion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#drowsiness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#nasal_congestion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#cough"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#dry_mouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#headache"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#runny_nose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#blurred_vision"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#urinary_retention"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#cold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Loratadine"/>
+        <NamedIndividual IRI="#rhinorrhea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#akathisia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#neruoleptic_malignant_syndrome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#akinesia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#weight_gain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#paralysis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#epilepsy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#bipolar_disorder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsDisease"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#psychosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#vomiting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#nausea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#seizures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatsSymptom"/>
+        <NamedIndividual IRI="#Phenothiazine"/>
+        <NamedIndividual IRI="#hallucination"/>
+    </ObjectPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
